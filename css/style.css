@@ -165,6 +165,12 @@
 	#cp-overview .major.special h2 {
 		margin: 0;
 	}
+	#blog .major.special {
+		margin: 0;
+	}
+	#blog .major.special h2 {
+		margin: 0;
+	}
 	/* Reduce spacing between the two dividers in News */
 	#news hr.title-divider {
 		margin: 0.3em auto;
@@ -303,7 +309,8 @@
 	#publications .major_publications.special h2,
 	#featured .major.special h2,
 	#cp-overview .major.special h2,
-	#text .major.special h2 {
+	#text .major.special h2,
+	#blog .major.special h2 {
 		border-bottom: 1px solid #000;
 		padding-bottom: 0.0em;
 		margin-bottom: 1.5em;
