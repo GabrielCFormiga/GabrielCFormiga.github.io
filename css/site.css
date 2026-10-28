@@ -715,6 +715,29 @@ a:hover {
 	object-fit: cover;
 }
 
+.project__photo .photo {
+	min-height: 0;
+}
+
+.project__photo .photo img {
+	max-height: none;
+	border-radius: 0;
+}
+
+/* Columns follow each photo's aspect ratio so the row shares one height */
+.project__more {
+	display: grid;
+	grid-template-columns: 2fr 4.5fr 5.85fr;
+	gap: var(--space-2);
+	margin: var(--space-5) 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.project__more li:nth-child(1) img { aspect-ratio: 2 / 3; }
+.project__more li:nth-child(2) img { aspect-ratio: 3 / 2; }
+.project__more li:nth-child(3) img { aspect-ratio: 1.95 / 1; }
+
 .project__photo figcaption {
 	padding: var(--space-2) var(--space-5) 0;
 	color: var(--ink-2);
