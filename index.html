@@ -20,6 +20,7 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-174649418-1');
 	</script>
+	<script src="/js/viewer.js" defer></script>
 </head>
 
 <body>
@@ -161,6 +162,52 @@
 
 				<article class="badge project">
 					<figure class="project__photo">
+						<a class="photo" href="images/web/CURICACA_HUAWEI_2025.jpg"
+							data-caption="On stage with fellow winners from across Latin America at the Festival Curicaca awards ceremony, held at the Mané Garrincha Stadium in Brasília">
+							<img src="images/web/CURICACA_HUAWEI_2025.jpg" width="1400" height="698" loading="lazy" decoding="async"
+								alt="Winners of the Huawei Developer Competition on stage at Festival Curicaca, holding flags from Latin American countries" />
+						</a>
+						<figcaption>Celebrating 3rd place at Festival Curicaca, Brasília</figcaption>
+					</figure>
+					<div class="badge__body">
+						<h3 class="project__org caps">Huawei</h3>
+						<p class="project__title">Developer Competition 2025 LATAM</p>
+						<p class="project__meta">Grand finale in Brasília, 2025</p>
+						<div class="project__text prose">
+							<p>We pitched our solution at the grand finale, held at the Universidade Católica de Brasília. It
+								focuses on public healthcare and on reducing the gap between public and private hospitals.</p>
+							<p>We took 3rd place and went on stage with fellow winners from across Latin America at the Festival
+								Curicaca awards ceremony, at the Mané Garrincha Stadium.</p>
+						</div>
+						<ul class="project__more">
+							<li>
+								<a class="photo" href="images/web/HUAWEI_2025_PITCH.jpg"
+									data-caption="Presenting our solution at the grand finale of the Huawei Developer Competition, held at the Universidade Católica de Brasília">
+									<img src="images/web/HUAWEI_2025_PITCH.jpg" width="1400" height="2100" loading="lazy" decoding="async"
+										alt="Gabriel pitching on stage with a microphone" />
+								</a>
+							</li>
+							<li>
+								<a class="photo" href="images/web/HUAWEI_2025_STAGE.jpg"
+									data-caption="Showing the social value of our solution during the pitch at the grand finale">
+									<img src="images/web/HUAWEI_2025_STAGE.jpg" width="1400" height="934" loading="lazy" decoding="async"
+										alt="Two team members presenting a slide about social value to the audience" />
+								</a>
+							</li>
+							<li>
+								<a class="photo" href="images/web/GROUP_HUAWEI_2025.jpg"
+									data-caption="Finalists and organizers at the grand finale, held at the Universidade Católica de Brasília">
+									<img src="images/web/GROUP_HUAWEI_2025.jpg" width="1400" height="722" loading="lazy" decoding="async"
+										alt="Group photo of finalists and organizers in front of the Huawei Developer Competition LATAM 2025 screen" />
+								</a>
+							</li>
+						</ul>
+					</div>
+					<p class="band band--award">3rd Place in Latin America</p>
+				</article>
+
+				<article class="badge project">
+					<figure class="project__photo">
 						<a class="project__video" href="https://www.youtube.com/watch?v=nYW1Jd1ZN-U" target="_blank" rel="noopener"
 							aria-label="Watch “Como criei a turma de programação competitiva da UFPB” on YouTube">
 							<img src="images/web/VIDEO_TURMA_CP.jpg" width="1280" height="720" loading="lazy" decoding="async"
@@ -238,6 +285,7 @@
 			<div class="wrap">
 				<h2 class="section__head caps">News</h2>
 				<ul class="spines">
+					<li class="spine spine--news"><span class="spine__tab">Aug<br />2025</span><p class="spine__text"><strong>Started as Artificial Intelligence Intern</strong><span>B3</span></p></li>
 					<li class="spine spine--news"><span class="spine__tab">Feb<br />2023</span><p class="spine__text"><strong>Started studying Computer Engineering</strong><span>Federal University of Paraíba (UFPB)</span></p></li>
 					<li class="spine spine--news"><span class="spine__tab">Dec<br />2022</span><p class="spine__text"><strong>Accepted into the Military Institute of Engineering</strong><span>IME</span></p></li>
 				</ul>
@@ -259,6 +307,11 @@
 			</ul>
 		</div>
 	</footer>
+
+	<dialog class="viewer" id="viewer" aria-label="Photo">
+		<button class="viewer__close" type="button" autofocus>Close</button>
+		<p></p>
+	</dialog>
 
 </body>
 
