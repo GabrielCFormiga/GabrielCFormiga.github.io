@@ -1,819 +1,727 @@
-<!DOCTYPE HTML>
-<!--
-    Spatial by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Gabriel Campelo Formiga - Competitive Programming</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-layers.min.js"></script>
-    <script src="js/init.js"></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Competitive Programming by Gabriel Campelo Formiga</title>
+	<meta name="description"
+		content="Every contest Gabriel Campelo Formiga has competed in since 2023, with results, scoreboards and team photos." />
+	<meta name="theme-color" content="#f5305a" />
+	<link rel="icon" href="/favicon.ico" />
+	<link rel="preload" href="/fonts/archivo/archivo-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="stylesheet" href="/css/site.css" />
 
-    <!-- MathJax options -->
-    <script type="text/x-mathjax-config">
-          MathJax.Hub.Config({
-            tex2jax: {
-              inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-              displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-              processEscapes: true
-            }
-          });
-        </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174649418-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-174649418-1');
-    </script>
-
-
-    <!-- Google tracking -->
-    <!-- <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-65368616-1', 'auto');
-          ga('send', 'pageview');
-        </script> -->
-
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-
-    <noscript>
-        <link rel="stylesheet" href="css/skel.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/style-xlarge.css" />
-    </noscript>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174649418-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-174649418-1');
+	</script>
+	<script src="/js/viewer.js" defer></script>
 </head>
 
-<body class="landing research-page">
-
-    <!-- Header -->
-    <header id="header" class="alt">
-        <h1><strong><a href="https://www.ci.ufpb.br/" target="_blank">UFPB</a></strong> Computer Engineering<br>
-        </h1>
-        <nav id="nav">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <!-- <li><a href="/misc.html">Misc</a></li> -->
-                <li><a href="/cp.html">CP</a></li>
-                <li><a href="/docs/Gabriel_resume_october2025.pdf" target="_blank">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Banner -->
-    <section id="banner" style="padding: 6em 0 1em 0;">
-
-        <!-- <p>Machine Learning and Software Engineering</p> -->
-    </section>
-
-    <!-- Competitive Programming Overview -->
-    <section id="cp-overview" class="wrapper style2">
-        <div class="container" style="max-width: 1000px; line-height: 160%;">
-            <header class="major special">
-                <h2>Competitive Programming</h2>
-            </header>
-
-            <p style="text-align: justify;">
-                I started competitive programming in 2023 right after learning the basics of programming and C90. 
-                My university didn't have a CP tradition, so I had to learn everything on my own. I guess my background in math and problem-solving helped a lot, but I also spent countless hours reading editorials, watching tutorials, and practicing on platforms like Codeforces and AtCoder.
-            </p>
-
-            <p style="text-align: justify;">
-                My main goal is to establish a solid Olympic project at UFPB before I graduate, and hopefully qualify for the ICPC World Finals in the process.
-            </p>
-
-            <h4>Profiles</h4>
-            <ul style="font-size:15px; line-height: 200%;">
-                <li><strong>Codeforces</strong> — <a href="https://codeforces.com/profile/GabrielCampelo" target="_blank" rel="noopener">GabrielCampelo</a> · Rating: 1448 (Specialist)</li>
-                <li><strong>AtCoder</strong> — <a href="https://atcoder.jp/users/GabrielCF" target="_blank" rel="noopener">GabrielCF</a> · Rating: 593 (8 Kyu)</li>
-            </ul>
-
-            <!-- <h4>Contest Highlights</h4>
-            <div class="awards-list" style="font-size:15px;">
-                <div class="news-item">
-                    <div class="news-date">2025</div>
-                    <ul class="news-text" style="margin:0; padding-left:1.2em;">
-                        <li>IEEEXtreme 24-Hour Competition — Ranked 2164th / 9409 teams</li>
-                        <li>SBC Programming Marathon (First Phase) — Ranked 85th / 984 teams</li>
-                        <li>II Gaúcha Programming Marathon — Ranked 11th / 68 teams</li>
-                        <li>SBC Programming Marathon (Phase Zero) — Ranked 93th / 981 teams</li>
-                        <li>Paraíba Informatics Olympiad — Silver Medal</li>
-                    </ul>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">2024</div>
-                    <ul class="news-text" style="margin:0; padding-left:1.2em;">
-                        <li>IEEEXtreme 24-Hour Competition — Ranked 1028th / 8793 teams</li>
-                        <li>SBC Programming Marathon (First Phase) — Ranked 136th / 847 teams</li>
-                        <li>SBC Programming Marathon (Phase Zero) — Ranked 117th / 896 teams</li>
-                        <li>Paraíba Informatics Olympiad — Honorable Mention</li>
-                    </ul>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">2023</div>
-                    <ul class="news-text" style="margin:0; padding-left:1.2em;">
-                        <li>IEEEXtreme 24-Hour Competition — Ranked 2028th / 4231 teams</li>
-                        <li>SBC Programming Marathon (First Phase) — Ranked 207th / 687 teams</li>
-                        <li>SBC Programming Marathon (Phase Zero) — Ranked 167th / 506 teams</li>
-                        <li>Paraíba Informatics Olympiad — Silver Medal</li>
-                    </ul>
-                </div>
-            </div> -->
-
-            <h4 class="section-h4">Contest Highlights</h4>
-            <div id="cd-timeline">
-
-                <!-- ── 2026 ─────────────────────────────────────────── -->
-                <div class="cd-timeline-year">2026</div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">The 2026 ICPC South America/Brazil First Phase</h5>
-                        <div class="cd-timeline-meta">
-                            Aug &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">76th / 2009 teams</span>
-                        </div>
-
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">The last stop of an intense run of competitions with my team "Fallenzão aposentou" (Arthur, Danillo, and I).</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/SBC_2026.png" alt="ICPC Brazil First Phase 2026">
-                                <figcaption>My team "Fallenzão aposentou"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/GROUP_SBC_2026.png" alt="ICPC Brazil First Phase 2026">
-                                <figcaption>Group photo with UFPB teams</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">1st Northeast Programming Marathon</h5>
-                        <div class="cd-timeline-meta">
-                            Aug &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">17th / 97 teams</span>
-                        </div>
-
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">The first edition of the Maratona Nordestina de Programação, with 97 teams from across Northeast Brazil.</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/NORDESTINA_2026.png" alt="Northeast Programming Marathon 2026">
-                                <figcaption>My team "Fallenzão aposentou"</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">Paraíba Informatics Olympiad</h5>
-                        <div class="cd-timeline-meta">
-                            Aug &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">Silver Medal · 4th / 48 teams</span>
-                        </div>
-
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">4th place overall among 48 teams from 6 institutions.</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/OPI_2026.png" alt="OPI 2026">
-                                <figcaption>My team "Fallenzão aposentou"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/GROUP_OPI_2026.png" alt="OPI 2026">
-                                <figcaption>Group photo with UFPB teams</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">II Mixed Programming Marathon (UFCG)</h5>
-                        <div class="cd-timeline-meta">
-                            Jun &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">5th / 42 teams</span>
-                        </div>
-
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">The II Maratona Mista de Programação, hosted by UFCG.</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/WCC_2026.png" alt="Mixed Programming Marathon 2026">
-                                <figcaption>My team "Fallenzão aposentou"</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ── 2025 ─────────────────────────────────────────── -->
-                <div class="cd-timeline-year">2025</div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">IEEEXtreme 19.0</h5>
-                        <div class="cd-timeline-meta">
-                            Oct &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">2164th / 9409 teams</span>
-                        </div>
-
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">Arthur, Danillo, and I spent the full 24 hours together at UFPB's <a href="https://aria.ci.ufpb.br/" target="_blank">ARIA</a> lab. Pulling an all-nighter at the university was actually a lot of fun.</p>
-
-                        <p class="cd-timeline-desc">This edition was definitely healthier, haha. Dropping from 6 energy drinks in 2024 to just 4 in 2025 is an improvement in my book!</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/IEEEXtreme_2025_1.png" alt="IEEEXtreme 2025">
-                                <figcaption>My team "FURIAvsMongolZ"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/IEEEXtreme_2025_2.png" alt="IEEEXtreme 2025">
-                                <figcaption>Energy Drinks</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">The 2025 ICPC South America/Brazil First Phase</h5>
-                        <div class="cd-timeline-meta">
-                            Sep &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">85th / 984 teams</span>
-                        </div>
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">My best performance in the ICPC Regionals so far. We came so close to qualifying for the Brazilian Finals.</p>
-
-                        <p class="cd-timeline-desc">Contest pressure is hard to explain. I attempted a problem multiple times during the competition, yet managed to get it Accepted with the exact same idea in minutes once I got home.</p>
-
-                        <p class="cd-timeline-desc">I believe that the harder you work, the less you depend on luck, and the less you get stuck like that. Hopefully, we will qualify in 2026.</p>
-
-                        <p class="cd-timeline-desc">P.S. We managed to pop almost all our balloons before the photo. Brilliant planning on our part, haha.</p>
-                        
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/SBC_2025.png" alt="SBC Marathon 2025">
-                                <figcaption>My team "Fallen Stop Blowing my Mind"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/UFPB_SBC_2025.png" alt="SBC Marathon 2025">
-                                <figcaption>Group photo with UFPB teams</figcaption>
-                            </figure>
-                        </div>
-                       
-                        <!-- Links: -->
-                        <div class="cd-timeline-links">
-                            <a href="https://maratona.sbc.org.br/hist/2025/subbr-2025/index.html" target="_blank">Scoreboard</a>
-                        </div>
-                       
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">Paraíba Informatics Olympiad</h5>
-                        <div class="cd-timeline-meta">
-                            Aug &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">Silver Medal</span>
-                        </div>
-                        
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">The ironic part of this competition is that Arthur and Danillo
-                            hadn't even taken Data Structures yet. If it were just them, 
-                            they could have competed in the Junior category and easily snagged a gold medal.</p>
-                            
-                            <p class="cd-timeline-desc">However, since I was on the team, 
-                                we were forced to compete in the Senior category. Sorry about that, guys...</p>
-                                
-                                <!-- Photos: -->
-                                <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/OPI_2025.png" alt="OPI 2025">
-                                <figcaption>My team "Fallen Stop Blowing my Mind"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/UFPB_OPI_2025.png" alt="OPI 2025">
-                                <figcaption>Group photo with UFPB teams</figcaption>
-                            </figure>
-                        </div>
-                        
-                        
-                        <!-- Links -->
-                        <div class="cd-timeline-links">
-                            <a href="https://dsc.ufcg.edu.br/~opi/resultados/2025/resultado-avancado-senior-2025.pdf" target="_blank">Results PDF</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">II Gaúcha Programming Marathon</h5>
-                        <div class="cd-timeline-meta">
-                            Jul &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">11th / 68 teams</span>
-                        </div>
-
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">This competition is primarily aimed at teams from southern Brazil, but it is open to all regions.</p>
-
-                        <p class="cd-timeline-desc">Since Danillo was sick, our colleague Diego filled in for him.</p>
-
-                        <p class="cd-timeline-desc">We ranked 1st among all teams from the Northeast.</p>
-
-                        <p class="cd-timeline-desc">Once again, my house's balcony saved us, haha.</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/GAUCHA_2025.jpg" alt="II Gaúcha Marathon 2025">
-                                <figcaption>My team "Fallen Stop Blowing my Mind"</figcaption>
-                            </figure>
-                        </div>
-                       
-                        
-                        <!-- Links:
-                        <div class="cd-timeline-links">
-                            <a href="docs/gaucha2025_rank.pdf" target="_blank">Scoreboard PDF</a>
-                        </div>
-                        -->
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">4th Pacode Programming Contest</h5>
-                        <div class="cd-timeline-meta">
-                            Jun &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">Champion</span>
-                        </div>
-                            
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">Last time competing in the Pacode Programming Contest.</p>  
-                            
-                        <p class="cd-timeline-desc">From that point on, I focus on organizing the competition and elaborating the problems.</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/MP4.jpeg" alt="Pacode">
-                                <figcaption>My team "Fallen Stop Blowing my Mind"</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">SBC Programming Marathon (Phase Zero)</h5>
-                        <div class="cd-timeline-meta">
-                            May &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">93rd / 981 teams</span>
-                        </div>
-
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">While this competition is usually just a warm-up for the Brazilian First Phase,
-                             this particular edition holds a special place for me.</p>
-
-                        <p class="cd-timeline-desc">It was my first time teaming up with brothers Arthur and Danillo, 
-                            it marked the beginning of a highly successful competitive partnership and the start of a great friendship.</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/SBC0_2025.png" alt="SBC Marathon Phase Zero 2025">
-                                <figcaption>My team "Linear Ballonmization"</figcaption>
-                            </figure>
-                        </div>
-                       
-                        
-                        <!-- Links: -->
-                        <div class="cd-timeline-links">
-                            <a href="https://scorelatam.naquadah.com.br/fzero-2025/Score.html" target="_blank">Scoreboard</a>
-                        </div>
-                       
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">3rd Pacode Programming Contest</h5>
-                        <div class="cd-timeline-meta">
-                            Jan &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">Second Place</span>
-                        </div>
-                        <p class="cd-timeline-desc">In this edition of the Pacode Programming Contest, we had 20 teams from 3 different institutions.</p>
-
-                        <p class="cd-timeline-desc">It was my last time competing alongside Ayres before he moved to the US. We managed to solve all the problems, just a little bit slower than the visiting team from IFPB-JP.</p>
-
-                        <p class="cd-timeline-desc">I kinda miss my "long hair" skin, lol.</p>
-                            
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/MP3.jpg" alt="Pacode">
-                                <figcaption>My team "Eric e amigos"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/GROUP_MP3.jpg" alt="Pacode">
-                                <figcaption>Group photo</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ── 2024 ─────────────────────────────────────────── -->
-                <div class="cd-timeline-year">2024</div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">IEEEXtreme 18.0</h5>
-                        <div class="cd-timeline-meta">
-                            Oct &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">1028th / 8793 teams</span>
-                        </div>
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">This is by far my most impressive achievement in competitive programming.</p>
-
-                        <p class="cd-timeline-desc">In that edition, UFPB had registered only two teams. However, my team was the only one to actually participate, and I had to compete entirely alone.</p>
-
-                        <p class="cd-timeline-desc">In other words, I represented my university solo against trios from around the globe.</p>
-                        
-                        <p class="cd-timeline-desc">Incredibly, I managed to place UFPB as the second-best university in Brazil.</p>
-                                 
-                        <p class="cd-timeline-desc">My face pretty much sums up the exhaustion level. If you're wondering what kept me awake: 5 cans of Monster and a Red Bull.</p>
-                              
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/IEEEXtreme_2024_2.png" alt="IEEEXtreme 2024">
-                                <figcaption>Hour 14 of the competition</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/IEEEXtreme_2024_3.png" alt="IEEEXtreme 2024">
-                                <figcaption>Hour 20 of the competition</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/IEEEXtreme_2024_4.png" alt="IEEEXtreme 2024">
-                                <figcaption>Hour 22 of the competition</figcaption>
-                            </figure>
-                        </div>
-                       
-
-                        <!-- Links: -->
-                        <div class="cd-timeline-links">
-                            <a href="https://ieeextreme.org/ieeextreme-18-0-ranking/" target="_blank">Scoreboard</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">The 2024 ICPC South America/Brazil First Phase</h5>
-                        <div class="cd-timeline-meta">
-                            Sep &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">136th / 847 teams</span>
-                        </div>
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">For the teams of my state, the competition took place at Unifacisa University in Campina Grande, PB.</p>
-
-                        <p class="cd-timeline-desc">We had teams from UFPB, UFCG, IFPB-JP and Unifacisa itself.</p>
-                        
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/SBC_2024.JPG" alt="SBC Marathon 2024">
-                                <figcaption>My team "Alt F Trio" and Professor Lincoln</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/UFPB_SBC_2024.JPG" alt="UFPB at SBC Marathon 2024">
-                                <figcaption>Group photo with UFPB teams</figcaption>
-                            </figure>
-                        </div>
-                       
-                        <!-- Links: -->
-                        <div class="cd-timeline-links">
-                            <a href="https://maratona.sbc.org.br/hist/2024/primfase24/reports/Score.html" target="_blank">Scoreboard</a>
-                        </div>
-                       
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">Paraíba Informatics Olympiad</h5>
-                        <div class="cd-timeline-meta">
-                            Aug &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">Honorable Mention</span>
-                        </div>
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">This competition was a setback for me. I spent a lot of time solving the easy problems and couldn't figure out how to solve a simple graph problem, which cost my team a medal.</p>
-
-                        <p class="cd-timeline-desc">Today, I see that this was a milestone and the frustration gave me a lot of motivation to improve.</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/UFPB_OPI_2024.JPG" alt="OPI 2024">
-                                <figcaption>Group photo with UFPB teams</figcaption>
-                            </figure>
-                        </div>
-
-                        <!-- Links -->
-                        <div class="cd-timeline-links">
-                            <a href="https://dsc.ufcg.edu.br/~opi/resultados/2024/resultado-avancado-junior-2024.pdf" target="_blank">Results PDF</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">2nd Pacode Programming Contest</h5>
-                        <div class="cd-timeline-meta">
-                            May &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">Second Place</span>
-                        </div>
-                        <!-- <p class="cd-timeline-desc">Add your description here.</p> -->
-                        
-                        <!-- Description: -->
-                            <p class="cd-timeline-desc">This edition was held online. We had 21 teams (over 60 participants).</p>
-
-                            <p class="cd-timeline-desc">Sherterton and Ayres were busy, so I had to compete alone.</p>
-
-                            <p class="cd-timeline-desc">I led the scoreboard for most of the contest. Unfortunately, in the final minutes, the runner-up team solved the last problem faster than I did.</p>
-                        <!-- Links -->
-                        <div class="cd-timeline-links">
-                            <a href="docs/Placar Final - II Maratona PACODE.pdf" target="_blank">Scoreboard</a>
-                        </div>    
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">SBC Programming Marathon (Phase Zero)</h5>
-                        <div class="cd-timeline-meta">
-                            May &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">117th / 896 teams</span>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">1st Pacode Programming Contest</h5>
-                        <div class="cd-timeline-meta">
-                            Mar &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">Champion</span>
-                        </div>
-                        <!-- Description: -->
-                            <p class="cd-timeline-desc">This was the first edition of UFPB's internal competition. We had 60 participants.</p>
-                            
-                            <p class="cd-timeline-desc">At this point, I already knew C++ and was performing well in competitions.</p>
-                            
-                            <p class="cd-timeline-desc">I also invited Ayres to join Sherterton and me. We ended up competing together as a team for over a year.</p>
-                            
-                            <p class="cd-timeline-desc">We were the only team to solve all the problems :)</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/MP1.jpeg" alt="Pacode">
-                                <figcaption>My team "Alt F Trio"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/GROUP_MP1.jpeg" alt="Pacode">
-                                <figcaption>Group photo</figcaption>
-                            </figure>
-                        </div>
-
-                        <!-- Links -->
-                        <div class="cd-timeline-links">
-                            <a href="docs/Estat%C3%ADsticas%20I%20Maratona%20PACODE.pdf" target="_blank">Statistics PDF</a>
-                            <a href="https://www.instagram.com/p/C46VJC8JhJ7/?igsh=MXJtZGYzYXR0NWF4bA==" target="_blank">Instagram post</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ── 2023 ─────────────────────────────────────────── -->
-                <div class="cd-timeline-year">2023</div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">IEEEXtreme 17.0</h5>
-                        <div class="cd-timeline-meta">
-                            Oct &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">2028th / 4231 teams</span>
-                        </div>
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">My first time participating in a 24-hour programming competition. Teams from UFPB and IFPB gathered at a LAN house in João Pessoa, PB.</p>
-
-                        <p class="cd-timeline-desc">To be honest, I slept for a few hours during the competition haha.</p>
-
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/IEEEXtreme_2023.JPG" alt="IEEEXtreme 17.0">
-                                <figcaption>My team "PBCoders"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/GROUP_IEEEXtreme_2023.JPG" alt="IEEEXtreme 17.0">
-                                <figcaption>Group photo with teams from UFPB and IFPB</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/PIZZA_IEEEXtreme_2023.JPG" alt="IEEEXtreme 17.0">
-                                <figcaption>Pizza Time :)</figcaption>
-                            </figure>
-                        </div>
-                       
-                        <!-- Links: -->
-                        <div class="cd-timeline-links">
-                            <a href="https://ieeextreme.org/ieeextreme-17-0-ranking/" target="_blank">Scoreboard</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">The 2023 ICPC South America/Brazil First Phase</h5>
-                        <div class="cd-timeline-meta">
-                            Sep &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">207th / 687 teams</span>
-                        </div>
-                        <!-- Description: -->
-                        <p class="cd-timeline-desc">My first ever ICPC Subregional.</p>
-
-                        <p class="cd-timeline-desc">The funny part was that we passed a problem in the last 3 minutes.</p>
-
-                        <p class="cd-timeline-desc">I remember that TLE was a big issue for us, Big O notation wasn't in our vocabulary yet.</p>
-                        
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/SBC_2023.png" alt="SBC Marathon 2023">
-                                <figcaption>My team "Alt F Trio"</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/GROUP_SBC_2023.png" alt="Group SBC Marathon 2023">
-                                <figcaption>Group photo with teams from my state</figcaption>
-                            </figure>
-                        </div>
-                       
-                        <!-- Links: -->
-                        <div class="cd-timeline-links">
-                            <a href="https://maratona.sbc.org.br/hist/2023/primfase23/contest/Score.html" target="_blank">Scoreboard</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">SBC Programming Marathon (Phase Zero)</h5>
-                        <div class="cd-timeline-meta">
-                            Jun &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">167th / 506 teams</span>
-                        </div>
-                        <p class="cd-timeline-desc">This competition was online and it was more of a marketing for the Brazil First Phase.</p>
-                        <!-- Photos:
-                        <div class="cd-timeline-photos">
-                            <img src="images/contests/marathon2023_0.jpg" alt="SBC Marathon Phase Zero 2023">
-                        </div>
-                        -->
-                        <!-- Links:
-                        <div class="cd-timeline-links">
-                            <a href="docs/marathon2023_0_rank.pdf" target="_blank">Scoreboard PDF</a>
-                        </div>
-                        -->
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">Paraíba Informatics Olympiad</h5>
-                        <div class="cd-timeline-meta">
-                            Aug &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">Silver Medal</span>
-                        </div>
-                        <!-- Description -->
-                        <p class="cd-timeline-desc">By this point, i still had limited programming experience and only knew C99. 
-                            However, I was able to implement some data structures.</p>
-                        
-                        <p class="cd-timeline-desc">It was my first medal and set a partnership with Sherterton that continued for more competitions.</p>
-                        
-                        <!-- Photos -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/OPI_2023.jpeg" alt="OPI 2023">
-                                <figcaption>Me and my teammate Sherterton</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="images/contests/UFPB_OPI_2023.jpg" alt="OPI 2023">
-                                <figcaption>Group photo with UFPB teams</figcaption>
-                            </figure>
-                        </div>
-                        
-                        <!-- Links -->
-                        <div class="cd-timeline-links">
-                            <a href="https://dsc.ufcg.edu.br/~opi/resultados/2023/resultado-avancado-junior-2023.pdf" target="_blank">Results PDF</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img"></div>
-                    <div class="cd-timeline-content">
-                        <h5 class="cd-timeline-title">POP Marathon</h5>
-                        <div class="cd-timeline-meta">
-                            May &nbsp;·&nbsp;
-                            <span class="cd-timeline-rank">No Info</span>
-                        </div>
-                        <p class="cd-timeline-desc">My first ever participation in a programming marathon. 
-                            Here i had a few months of programming experience and only knew C99.</p>
-
-                        <p class="cd-timeline-desc">The competition was organized by IFPB professors and hosted at IFPB in João Pessoa.</p>
-                        
-                        <!-- Photos: -->
-                        <div class="cd-timeline-photos">
-                            <figure>
-                                <img src="images/contests/POP_2023.jpeg" alt="Me and my teamates Sherterton and Aninha.">
-                                <figcaption>Me and my teamates Sherterton and Aninha</figcaption>
-                            </figure>
-                        </div>
-
-                        <!-- Links -->
-                        <div class="cd-timeline-links">
-                            <a href="https://www.instagram.com/popifpb/" target="_blank">POP/IFPB Instagram</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- #cd-timeline -->
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="container">
-            <hr class="title-divider">
-            <ul class="icons">
-                <li><a href="mailto:gabriel.campfor@gmail.com" class="icon fa-envelope"></a></li>
-                <li><a href="https://github.com/GabrielCFormiga" class="icon fa-github"></a></li>
-                <li><a href="https://www.linkedin.com/in/gabrielcformiga/" class="icon fa-linkedin"></a></li>
-            </ul>
-
-        </div>
-    </footer>
+<body>
+	<a class="skip" href="#main">Skip to content</a>
+
+	<!-- Lanyard: site navigation -->
+	<header class="lanyard">
+		<div class="wrap">
+			<a class="lanyard__mark" href="/">Gabriel Campelo Formiga</a>
+			<nav aria-label="Main">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/cp.html" aria-current="page">CP</a></li>
+					<li><a href="/#projects">Projects</a></li>
+					<li><a href="/docs/Gabriel_resume_october2025.pdf" target="_blank" rel="noopener">Resume</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="main">
+
+		<section class="page-head">
+			<div class="wrap">
+				<h1 class="page-head__title caps">Competitive Programming</h1>
+				<div class="prose">
+					<p>I started competitive programming in 2023 right after learning the basics of programming and C90.
+						My university didn't have a CP tradition, so I had to learn everything on my own. I guess my
+						background in math and problem-solving helped a lot, but I also spent countless hours reading
+						editorials, watching tutorials, and practicing on platforms like Codeforces and AtCoder.</p>
+					<p>My main goal is to establish a solid Olympic project at UFPB before I graduate, and hopefully qualify
+						for the ICPC World Finals in the process.</p>
+				</div>
+
+				<!-- Profiles -->
+				<ul class="profiles" aria-label="Profiles">
+					<li>
+						<a class="badge profile" href="https://codeforces.com/profile/GabrielCampelo" target="_blank" rel="noopener">
+							<div class="badge__body">
+								<p class="profile__handle caps">GabrielCampelo</p>
+								<p class="profile__site label">Codeforces</p>
+							</div>
+							<p class="band band--contest">1448, Specialist</p>
+						</a>
+					</li>
+					<li>
+						<a class="badge profile" href="https://atcoder.jp/users/GabrielCF" target="_blank" rel="noopener">
+							<div class="badge__body">
+								<p class="profile__handle caps">GabrielCF</p>
+								<p class="profile__site label">AtCoder</p>
+							</div>
+							<p class="band band--contest">593, 8 Kyu</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Jump to a year -->
+		<nav class="years" aria-label="Years">
+			<div class="wrap">
+				<ul>
+					<li><a href="#y2026">2026</a></li>
+					<li><a href="#y2025">2025</a></li>
+					<li><a href="#y2024">2024</a></li>
+					<li><a href="#y2023">2023</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Contest timeline. Blue band for a ranking, yellow band for a medal or podium.
+		     Entries without photos show as a compact spine. -->
+		<!-- 2026 -->
+		<section class="year" id="y2026" aria-labelledby="h2026">
+			<div class="wrap">
+				<h2 class="year__num caps" id="h2026">2026</h2>
+				<ol class="entries">
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">The 2026 ICPC South America/Brazil First Phase</h3>
+								<p class="entry__date label">Aug 2026</p>
+								<div class="entry__desc">
+									<p>The last stop of an intense run of competitions with my team “Fallenzão aposentou” (Arthur, Danillo, and I).</p>
+								</div>
+							</div>
+							<p class="band band--contest">76th / 2009 teams</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/SBC_2026.jpg" data-caption="My team “Fallenzão aposentou”">
+								<img src="images/web/SBC_2026.jpg" width="476" height="636" loading="lazy" decoding="async" alt="ICPC Brazil First Phase 2026" />
+							</a>
+							<figcaption>My team “Fallenzão aposentou”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/GROUP_SBC_2026.jpg" data-caption="Group photo with UFPB teams">
+								<img src="images/web/GROUP_SBC_2026.jpg" width="1280" height="958" loading="lazy" decoding="async" alt="ICPC Brazil First Phase 2026" />
+							</a>
+							<figcaption>Group photo with UFPB teams</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">1st Northeast Programming Marathon</h3>
+								<p class="entry__date label">Aug 2026</p>
+								<div class="entry__desc">
+									<p>The first edition of the Maratona Nordestina de Programação, with 97 teams from across Northeast Brazil.</p>
+								</div>
+							</div>
+							<p class="band band--contest">17th / 97 teams</p>
+						</article>
+						<div class="photos photos--1">
+						<figure>
+							<a class="photo" href="images/web/NORDESTINA_2026.jpg" data-caption="My team “Fallenzão aposentou”">
+								<img src="images/web/NORDESTINA_2026.jpg" width="800" height="1066" loading="lazy" decoding="async" alt="Northeast Programming Marathon 2026" />
+							</a>
+							<figcaption>My team “Fallenzão aposentou”</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">Paraíba Informatics Olympiad</h3>
+								<p class="entry__date label">Aug 2026</p>
+								<div class="entry__desc">
+									<p>4th place overall among 48 teams from 6 institutions.</p>
+								</div>
+							</div>
+							<p class="band band--award">Silver Medal, 4th / 48 teams</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/OPI_2026.jpg" data-caption="My team “Fallenzão aposentou”">
+								<img src="images/web/OPI_2026.jpg" width="384" height="514" loading="lazy" decoding="async" alt="OPI 2026" />
+							</a>
+							<figcaption>My team “Fallenzão aposentou”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/GROUP_OPI_2026.jpg" data-caption="Group photo with UFPB teams">
+								<img src="images/web/GROUP_OPI_2026.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="OPI 2026" />
+							</a>
+							<figcaption>Group photo with UFPB teams</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">II Mixed Programming Marathon (UFCG)</h3>
+								<p class="entry__date label">Jun 2026</p>
+								<div class="entry__desc">
+									<p>The II Maratona Mista de Programação, hosted by UFCG.</p>
+								</div>
+							</div>
+							<p class="band band--contest">5th / 42 teams</p>
+						</article>
+						<div class="photos photos--1">
+						<figure>
+							<a class="photo" href="images/web/WCC_2026.jpg" data-caption="My team “Fallenzão aposentou”">
+								<img src="images/web/WCC_2026.jpg" width="379" height="506" loading="lazy" decoding="async" alt="Mixed Programming Marathon 2026" />
+							</a>
+							<figcaption>My team “Fallenzão aposentou”</figcaption>
+						</figure>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<!-- 2025 -->
+		<section class="year" id="y2025" aria-labelledby="h2025">
+			<div class="wrap">
+				<h2 class="year__num caps" id="h2025">2025</h2>
+				<ol class="entries">
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">IEEEXtreme 19.0</h3>
+								<p class="entry__date label">Oct 2025</p>
+								<div class="entry__desc">
+									<p>Arthur, Danillo, and I spent the full 24 hours together at UFPB's <a href="https://aria.ci.ufpb.br/" target="_blank">ARIA</a> lab. Pulling an all-nighter at the university was actually a lot of fun.</p>
+									<p>This edition was definitely healthier, haha. Dropping from 6 energy drinks in 2024 to just 4 in 2025 is an improvement in my book!</p>
+								</div>
+							</div>
+							<p class="band band--contest">2164th / 9409 teams</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/IEEEXtreme_2025_1.jpg" data-caption="My team “FURIAvsMongolZ”">
+								<img src="images/web/IEEEXtreme_2025_1.jpg" width="1280" height="720" loading="lazy" decoding="async" alt="IEEEXtreme 2025" />
+							</a>
+							<figcaption>My team “FURIAvsMongolZ”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/IEEEXtreme_2025_2.jpg" data-caption="Energy Drinks">
+								<img src="images/web/IEEEXtreme_2025_2.jpg" width="768" height="1182" loading="lazy" decoding="async" alt="IEEEXtreme 2025" />
+							</a>
+							<figcaption>Energy Drinks</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">The 2025 ICPC South America/Brazil First Phase</h3>
+								<p class="entry__date label">Sep 2025</p>
+								<div class="entry__desc">
+									<p>My best performance in the ICPC Regionals so far. We came so close to qualifying for the Brazilian Finals.</p>
+									<p>Contest pressure is hard to explain. I attempted a problem multiple times during the competition, yet managed to get it Accepted with the exact same idea in minutes once I got home.</p>
+									<p>I believe that the harder you work, the less you depend on luck, and the less you get stuck like that. Hopefully, we will qualify in 2026.</p>
+									<p>P.S. We managed to pop almost all our balloons before the photo. Brilliant planning on our part, haha.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://maratona.sbc.org.br/hist/2025/subbr-2025/index.html" target="_blank" rel="noopener">Scoreboard</a></li>
+								</ul>
+							</div>
+							<p class="band band--contest">85th / 984 teams</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/SBC_2025.jpg" data-caption="My team “Fallen Stop Blowing my Mind”">
+								<img src="images/web/SBC_2025.jpg" width="1280" height="1262" loading="lazy" decoding="async" alt="SBC Marathon 2025" />
+							</a>
+							<figcaption>My team “Fallen Stop Blowing my Mind”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/UFPB_SBC_2025.jpg" data-caption="Group photo with UFPB teams">
+								<img src="images/web/UFPB_SBC_2025.jpg" width="831" height="500" loading="lazy" decoding="async" alt="SBC Marathon 2025" />
+							</a>
+							<figcaption>Group photo with UFPB teams</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">Paraíba Informatics Olympiad</h3>
+								<p class="entry__date label">Aug 2025</p>
+								<div class="entry__desc">
+									<p>The ironic part of this competition is that Arthur and Danillo hadn't even taken Data Structures yet. If it were just them, they could have competed in the Junior category and easily snagged a gold medal.</p>
+									<p>However, since I was on the team, we were forced to compete in the Senior category. Sorry about that, guys...</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://dsc.ufcg.edu.br/~opi/resultados/2025/resultado-avancado-senior-2025.pdf" target="_blank" rel="noopener">Results PDF</a></li>
+								</ul>
+							</div>
+							<p class="band band--award">Silver Medal</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/OPI_2025.jpg" data-caption="My team “Fallen Stop Blowing my Mind”">
+								<img src="images/web/OPI_2025.jpg" width="778" height="528" loading="lazy" decoding="async" alt="OPI 2025" />
+							</a>
+							<figcaption>My team “Fallen Stop Blowing my Mind”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/UFPB_OPI_2025.jpg" data-caption="Group photo with UFPB teams">
+								<img src="images/web/UFPB_OPI_2025.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="OPI 2025" />
+							</a>
+							<figcaption>Group photo with UFPB teams</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">II Gaúcha Programming Marathon</h3>
+								<p class="entry__date label">Jul 2025</p>
+								<div class="entry__desc">
+									<p>This competition is primarily aimed at teams from southern Brazil, but it is open to all regions.</p>
+									<p>Since Danillo was sick, our colleague Diego filled in for him.</p>
+									<p>We ranked 1st among all teams from the Northeast.</p>
+									<p>Once again, my house's balcony saved us, haha.</p>
+								</div>
+							</div>
+							<p class="band band--contest">11th / 68 teams</p>
+						</article>
+						<div class="photos photos--1">
+						<figure>
+							<a class="photo" href="images/web/GAUCHA_2025.jpg" data-caption="My team “Fallen Stop Blowing my Mind”">
+								<img src="images/web/GAUCHA_2025.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="II Gaúcha Marathon 2025" />
+							</a>
+							<figcaption>My team “Fallen Stop Blowing my Mind”</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">4th Pacode Programming Contest</h3>
+								<p class="entry__date label">Jun 2025</p>
+								<div class="entry__desc">
+									<p>Last time competing in the Pacode Programming Contest.</p>
+									<p>From that point on, I focus on organizing the competition and elaborating the problems.</p>
+								</div>
+							</div>
+							<p class="band band--award">Champion</p>
+						</article>
+						<div class="photos photos--1">
+						<figure>
+							<a class="photo" href="images/web/MP4.jpg" data-caption="My team “Fallen Stop Blowing my Mind”">
+								<img src="images/web/MP4.jpg" width="960" height="976" loading="lazy" decoding="async" alt="Pacode" />
+							</a>
+							<figcaption>My team “Fallen Stop Blowing my Mind”</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">SBC Programming Marathon (Phase Zero)</h3>
+								<p class="entry__date label">May 2025</p>
+								<div class="entry__desc">
+									<p>While this competition is usually just a warm-up for the Brazilian First Phase, this particular edition holds a special place for me.</p>
+									<p>It was my first time teaming up with brothers Arthur and Danillo, it marked the beginning of a highly successful competitive partnership and the start of a great friendship.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://scorelatam.naquadah.com.br/fzero-2025/Score.html" target="_blank" rel="noopener">Scoreboard</a></li>
+								</ul>
+							</div>
+							<p class="band band--contest">93rd / 981 teams</p>
+						</article>
+						<div class="photos photos--1">
+						<figure>
+							<a class="photo" href="images/web/SBC0_2025.jpg" data-caption="My team “Linear Ballonmization”">
+								<img src="images/web/SBC0_2025.jpg" width="959" height="1280" loading="lazy" decoding="async" alt="SBC Marathon Phase Zero 2025" />
+							</a>
+							<figcaption>My team “Linear Ballonmization”</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">3rd Pacode Programming Contest</h3>
+								<p class="entry__date label">Jan 2025</p>
+								<div class="entry__desc">
+									<p>In this edition of the Pacode Programming Contest, we had 20 teams from 3 different institutions.</p>
+									<p>It was my last time competing alongside Ayres before he moved to the US. We managed to solve all the problems, just a little bit slower than the visiting team from IFPB-JP.</p>
+									<p>I kinda miss my “long hair” skin, lol.</p>
+								</div>
+							</div>
+							<p class="band band--award">Second Place</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/MP3.jpg" data-caption="My team “Eric e amigos”">
+								<img src="images/web/MP3.jpg" width="828" height="1086" loading="lazy" decoding="async" alt="Pacode" />
+							</a>
+							<figcaption>My team “Eric e amigos”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/GROUP_MP3.jpg" data-caption="Group photo">
+								<img src="images/web/GROUP_MP3.jpg" width="1400" height="1050" loading="lazy" decoding="async" alt="Pacode" />
+							</a>
+							<figcaption>Group photo</figcaption>
+						</figure>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<!-- 2024 -->
+		<section class="year" id="y2024" aria-labelledby="h2024">
+			<div class="wrap">
+				<h2 class="year__num caps" id="h2024">2024</h2>
+				<ol class="entries">
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">IEEEXtreme 18.0</h3>
+								<p class="entry__date label">Oct 2024</p>
+								<div class="entry__desc">
+									<p>This is by far my most impressive achievement in competitive programming.</p>
+									<p>In that edition, UFPB had registered only two teams. However, my team was the only one to actually participate, and I had to compete entirely alone.</p>
+									<p>In other words, I represented my university solo against trios from around the globe.</p>
+									<p>Incredibly, I managed to place UFPB as the second-best university in Brazil.</p>
+									<p>My face pretty much sums up the exhaustion level. If you're wondering what kept me awake: 5 cans of Monster and a Red Bull.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://ieeextreme.org/ieeextreme-18-0-ranking/" target="_blank" rel="noopener">Scoreboard</a></li>
+								</ul>
+							</div>
+							<p class="band band--contest">1028th / 8793 teams</p>
+						</article>
+						<div class="photos photos--3">
+						<figure>
+							<a class="photo" href="images/web/IEEEXtreme_2024_2.jpg" data-caption="Hour 14 of the competition">
+								<img src="images/web/IEEEXtreme_2024_2.jpg" width="720" height="1280" loading="lazy" decoding="async" alt="IEEEXtreme 2024" />
+							</a>
+							<figcaption>Hour 14 of the competition</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/IEEEXtreme_2024_3.jpg" data-caption="Hour 20 of the competition">
+								<img src="images/web/IEEEXtreme_2024_3.jpg" width="720" height="1280" loading="lazy" decoding="async" alt="IEEEXtreme 2024" />
+							</a>
+							<figcaption>Hour 20 of the competition</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/IEEEXtreme_2024_4.jpg" data-caption="Hour 22 of the competition">
+								<img src="images/web/IEEEXtreme_2024_4.jpg" width="720" height="1280" loading="lazy" decoding="async" alt="IEEEXtreme 2024" />
+							</a>
+							<figcaption>Hour 22 of the competition</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">The 2024 ICPC South America/Brazil First Phase</h3>
+								<p class="entry__date label">Sep 2024</p>
+								<div class="entry__desc">
+									<p>For the teams of my state, the competition took place at Unifacisa University in Campina Grande, PB.</p>
+									<p>We had teams from UFPB, UFCG, IFPB-JP and Unifacisa itself.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://maratona.sbc.org.br/hist/2024/primfase24/reports/Score.html" target="_blank" rel="noopener">Scoreboard</a></li>
+								</ul>
+							</div>
+							<p class="band band--contest">136th / 847 teams</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/SBC_2024.jpg" data-caption="My team “Alt F Trio” and Professor Lincoln">
+								<img src="images/web/SBC_2024.jpg" width="1400" height="1866" loading="lazy" decoding="async" alt="SBC Marathon 2024" />
+							</a>
+							<figcaption>My team “Alt F Trio” and Professor Lincoln</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/UFPB_SBC_2024.jpg" data-caption="Group photo with UFPB teams">
+								<img src="images/web/UFPB_SBC_2024.jpg" width="1400" height="1050" loading="lazy" decoding="async" alt="UFPB at SBC Marathon 2024" />
+							</a>
+							<figcaption>Group photo with UFPB teams</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">Paraíba Informatics Olympiad</h3>
+								<p class="entry__date label">Aug 2024</p>
+								<div class="entry__desc">
+									<p>This competition was a setback for me. I spent a lot of time solving the easy problems and couldn't figure out how to solve a simple graph problem, which cost my team a medal.</p>
+									<p>Today, I see that this was a milestone and the frustration gave me a lot of motivation to improve.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://dsc.ufcg.edu.br/~opi/resultados/2024/resultado-avancado-junior-2024.pdf" target="_blank" rel="noopener">Results PDF</a></li>
+								</ul>
+							</div>
+							<p class="band band--award">Honorable Mention</p>
+						</article>
+						<div class="photos photos--1">
+						<figure>
+							<a class="photo" href="images/web/UFPB_OPI_2024.jpg" data-caption="Group photo with UFPB teams">
+								<img src="images/web/UFPB_OPI_2024.jpg" width="1400" height="1050" loading="lazy" decoding="async" alt="OPI 2024" />
+							</a>
+							<figcaption>Group photo with UFPB teams</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">2nd Pacode Programming Contest</h3>
+								<p class="entry__date label">May 2024</p>
+								<div class="entry__desc">
+									<p>This edition was held online. We had 21 teams (over 60 participants).</p>
+									<p>Sherterton and Ayres were busy, so I had to compete alone.</p>
+									<p>I led the scoreboard for most of the contest. Unfortunately, in the final minutes, the runner-up team solved the last problem faster than I did.</p>
+								</div>
+								<ul class="links">
+									<li><a href="docs/Placar Final - II Maratona PACODE.pdf" target="_blank" rel="noopener">Scoreboard</a></li>
+								</ul>
+							</div>
+							<p class="band band--award">Second Place</p>
+						</article>
+
+					</li>
+
+					<li class="spine spine--contest spine-entry">
+						<span class="spine__tab">May</span>
+						<div class="spine__text">
+							<strong>SBC Programming Marathon (Phase Zero)</strong><span>117th / 896 teams</span>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">1st Pacode Programming Contest</h3>
+								<p class="entry__date label">Mar 2024</p>
+								<div class="entry__desc">
+									<p>This was the first edition of UFPB's internal competition. We had 60 participants.</p>
+									<p>At this point, I already knew C++ and was performing well in competitions.</p>
+									<p>I also invited Ayres to join Sherterton and me. We ended up competing together as a team for over a year.</p>
+									<p>We were the only team to solve all the problems :)</p>
+								</div>
+								<ul class="links">
+									<li><a href="docs/Estat%C3%ADsticas%20I%20Maratona%20PACODE.pdf" target="_blank" rel="noopener">Statistics PDF</a></li>
+									<li><a href="https://www.instagram.com/p/C46VJC8JhJ7/?igsh=MXJtZGYzYXR0NWF4bA==" target="_blank" rel="noopener">Instagram post</a></li>
+								</ul>
+							</div>
+							<p class="band band--award">Champion</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/MP1.jpg" data-caption="My team “Alt F Trio”">
+								<img src="images/web/MP1.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Pacode" />
+							</a>
+							<figcaption>My team “Alt F Trio”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/GROUP_MP1.jpg" data-caption="Group photo">
+								<img src="images/web/GROUP_MP1.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Pacode" />
+							</a>
+							<figcaption>Group photo</figcaption>
+						</figure>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<!-- 2023 -->
+		<section class="year" id="y2023" aria-labelledby="h2023">
+			<div class="wrap">
+				<h2 class="year__num caps" id="h2023">2023</h2>
+				<ol class="entries">
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">IEEEXtreme 17.0</h3>
+								<p class="entry__date label">Oct 2023</p>
+								<div class="entry__desc">
+									<p>My first time participating in a 24-hour programming competition. Teams from UFPB and IFPB gathered at a LAN house in João Pessoa, PB.</p>
+									<p>To be honest, I slept for a few hours during the competition haha.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://ieeextreme.org/ieeextreme-17-0-ranking/" target="_blank" rel="noopener">Scoreboard</a></li>
+								</ul>
+							</div>
+							<p class="band band--contest">2028th / 4231 teams</p>
+						</article>
+						<div class="photos photos--3">
+						<figure>
+							<a class="photo" href="images/web/IEEEXtreme_2023.jpg" data-caption="My team “PBCoders”">
+								<img src="images/web/IEEEXtreme_2023.jpg" width="1400" height="1866" loading="lazy" decoding="async" alt="IEEEXtreme 17.0" />
+							</a>
+							<figcaption>My team “PBCoders”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/GROUP_IEEEXtreme_2023.jpg" data-caption="Group photo with teams from UFPB and IFPB">
+								<img src="images/web/GROUP_IEEEXtreme_2023.jpg" width="1400" height="1050" loading="lazy" decoding="async" alt="IEEEXtreme 17.0" />
+							</a>
+							<figcaption>Group photo with teams from UFPB and IFPB</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/PIZZA_IEEEXtreme_2023.jpg" data-caption="Pizza Time :)">
+								<img src="images/web/PIZZA_IEEEXtreme_2023.jpg" width="1400" height="1050" loading="lazy" decoding="async" alt="IEEEXtreme 17.0" />
+							</a>
+							<figcaption>Pizza Time :)</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">The 2023 ICPC South America/Brazil First Phase</h3>
+								<p class="entry__date label">Sep 2023</p>
+								<div class="entry__desc">
+									<p>My first ever ICPC Subregional.</p>
+									<p>The funny part was that we passed a problem in the last 3 minutes.</p>
+									<p>I remember that TLE was a big issue for us, Big O notation wasn't in our vocabulary yet.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://maratona.sbc.org.br/hist/2023/primfase23/contest/Score.html" target="_blank" rel="noopener">Scoreboard</a></li>
+								</ul>
+							</div>
+							<p class="band band--contest">207th / 687 teams</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/SBC_2023.jpg" data-caption="My team “Alt F Trio”">
+								<img src="images/web/SBC_2023.jpg" width="706" height="462" loading="lazy" decoding="async" alt="SBC Marathon 2023" />
+							</a>
+							<figcaption>My team “Alt F Trio”</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/GROUP_SBC_2023.jpg" data-caption="Group photo with teams from my state">
+								<img src="images/web/GROUP_SBC_2023.jpg" width="910" height="456" loading="lazy" decoding="async" alt="Group SBC Marathon 2023" />
+							</a>
+							<figcaption>Group photo with teams from my state</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">Paraíba Informatics Olympiad</h3>
+								<p class="entry__date label">Aug 2023</p>
+								<div class="entry__desc">
+									<p>By this point, i still had limited programming experience and only knew C99. However, I was able to implement some data structures.</p>
+									<p>It was my first medal and set a partnership with Sherterton that continued for more competitions.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://dsc.ufcg.edu.br/~opi/resultados/2023/resultado-avancado-junior-2023.pdf" target="_blank" rel="noopener">Results PDF</a></li>
+								</ul>
+							</div>
+							<p class="band band--award">Silver Medal</p>
+						</article>
+						<div class="photos photos--2">
+						<figure>
+							<a class="photo" href="images/web/OPI_2023.jpg" data-caption="Me and my teammate Sherterton">
+								<img src="images/web/OPI_2023.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="OPI 2023" />
+							</a>
+							<figcaption>Me and my teammate Sherterton</figcaption>
+						</figure>
+						<figure>
+							<a class="photo" href="images/web/UFPB_OPI_2023.jpg" data-caption="Group photo with UFPB teams">
+								<img src="images/web/UFPB_OPI_2023.jpg" width="1400" height="1050" loading="lazy" decoding="async" alt="OPI 2023" />
+							</a>
+							<figcaption>Group photo with UFPB teams</figcaption>
+						</figure>
+						</div>
+					</li>
+
+					<li class="spine spine--contest spine-entry">
+						<span class="spine__tab">Jun</span>
+						<div class="spine__text">
+							<strong>SBC Programming Marathon (Phase Zero)</strong><span>167th / 506 teams</span>
+							<p>This competition was online and it was more of a marketing for the Brazil First Phase.</p>
+						</div>
+					</li>
+
+					<li class="entry">
+						<article class="badge">
+							<div class="badge__body">
+								<h3 class="entry__title caps">POP Marathon</h3>
+								<p class="entry__date label">May 2023</p>
+								<div class="entry__desc">
+									<p>My first ever participation in a programming marathon. Here i had a few months of programming experience and only knew C99.</p>
+									<p>The competition was organized by IFPB professors and hosted at IFPB in João Pessoa.</p>
+								</div>
+								<ul class="links">
+									<li><a href="https://www.instagram.com/popifpb/" target="_blank" rel="noopener">POP/IFPB Instagram</a></li>
+								</ul>
+							</div>
+							<p class="band band--contest">Result not recorded</p>
+						</article>
+						<div class="photos photos--1">
+						<figure>
+							<a class="photo" href="images/web/POP_2023.jpg" data-caption="Me and my teammates Sherterton and Aninha">
+								<img src="images/web/POP_2023.jpg" width="1032" height="1280" loading="lazy" decoding="async" alt="Me and my teammates Sherterton and Aninha." />
+							</a>
+							<figcaption>Me and my teammates Sherterton and Aninha</figcaption>
+						</figure>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Close: contact -->
+	<footer class="close" id="contact">
+		<div class="wrap">
+			<h2 class="close__head caps">Get in touch</h2>
+			<a class="close__mail" href="mailto:gabriel.campfor@gmail.com">gabriel.campfor@gmail.com</a>
+			<ul class="links">
+				<li><a href="https://github.com/GabrielCFormiga" target="_blank" rel="noopener">GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/gabrielcformiga/" target="_blank" rel="noopener">LinkedIn</a></li>
+				<li><a href="/docs/Gabriel_resume_october2025.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li>
+				<li><a href="/">Home</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<dialog class="viewer" id="viewer" aria-label="Photo">
+		<button class="viewer__close" type="button" autofocus>Close</button>
+		<p></p>
+	</dialog>
 
 </body>
 

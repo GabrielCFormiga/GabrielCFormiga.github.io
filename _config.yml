@@ -2,3 +2,7 @@ name: Gabriel Campelo Formiga
 description: Software Engineer
 url: https://gabrielcformiga.github.io
 markdown: kramdown
+exclude:
+  - CLAUDE.md
+  - PRODUCT.md
+  - DESIGN.md
