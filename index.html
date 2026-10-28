@@ -1,33 +1,16 @@
-<!DOCTYPE HTML>
-<!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Gabriel Campelo Formiga - Homepage</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Gabriel Campelo Formiga</title>
 	<meta name="description"
-		content="Gabriel Campelo Formiga — Software Engineer." />
-	<meta name="keywords" content="" />
-	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/skel.min.js"></script>
-	<script src="js/skel-layers.min.js"></script>
-	<script src="js/init.js"></script>
-
-	<!-- MathJax options -->
-	<script type="text/x-mathjax-config">
-          MathJax.Hub.Config({
-            tex2jax: {
-              inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-              displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-              processEscapes: true
-            }
-          });
-        </script>
+		content="Gabriel Campelo Formiga, Computer Engineering undergrad at UFPB, competitive programmer and AI intern at B3." />
+	<meta name="theme-color" content="#f5305a" />
+	<link rel="icon" href="/favicon.ico" />
+	<link rel="preload" href="/fonts/archivo/archivo-latin.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="stylesheet" href="/css/site.css" />
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174649418-1"></script>
@@ -35,222 +18,244 @@
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
-
 		gtag('config', 'UA-174649418-1');
 	</script>
-
-	<!-- Google tracking -->
-	<!-- <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-65368616-1', 'auto');
-          ga('send', 'pageview');
-        </script> -->
-
-	<script type="text/javascript"
-		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-		</script>
-
-	<noscript>
-		<link rel="stylesheet" href="css/skel.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/style-xlarge.css" />
-	</noscript>
 </head>
 
-<body class="landing">
+<body>
+	<a class="skip" href="#main">Skip to content</a>
 
-	<!-- Header -->
-	<header id="header" class="alt">
-		<h1><strong><a href="https://www.ci.ufpb.br/" target="_blank">UFPB</a></strong> Computer Engineering<br>
-		</h1>
-		<nav id="nav">
-			<ul>
-				<li><a href="/">Home</a></li>
-				<!-- <li><a href="/misc.html">Misc</a></li> -->
-				<li><a href="/cp.html">CP</a></li>
-				<li><a href="/docs/Gabriel_resume_october2025.pdf" target="_blank">Resume</a></li>
-			</ul>
-		</nav>
+	<!-- Lanyard: site navigation -->
+	<header class="lanyard">
+		<div class="wrap">
+			<a class="lanyard__mark" href="/">Gabriel Campelo Formiga</a>
+			<nav aria-label="Main">
+				<ul>
+					<li><a href="/" aria-current="page">Home</a></li>
+					<li><a href="/cp.html">CP</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="/docs/Gabriel_resume_october2025.pdf" target="_blank" rel="noopener">Resume</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
+	<main id="main">
 
-
-	<!-- About me -->
-	<section id="about" class="wrapper style1">
-		<div class="container">
-
-			<div class="row 200%">
-				<div class="6u 12u$(medium)">
-					<div class="12u"><span class="image fit"><img src="images/gabriel.jpg" style="max-width: 600px"
-								alt="Gabriel Campelo Formiga" /></span></div>
+		<!-- Hero: my own credential -->
+		<section class="hero">
+			<div class="wrap">
+				<div class="hang">
+					<div class="hang__strap" aria-hidden="true"></div>
+					<div class="hang__clip" aria-hidden="true"></div>
+					<article class="badge me">
+						<div class="me__inner">
+							<img class="me__photo" src="images/web/gabriel.jpg" width="460" height="460"
+								alt="Gabriel Campelo Formiga smiling at a football stadium" />
+							<div>
+								<h1 class="me__name caps">Gabriel<br />Campelo<br />Formiga</h1>
+								<p class="me__org label">Federal University of Paraíba</p>
+							</div>
+						</div>
+						<p class="band band--contest">Computer Engineering<small>Contestant since 2023</small></p>
+					</article>
 				</div>
-				<div class="6u$ 12u$(medium) about-text">
-					<h2 class="name-title">Gabriel Campelo Formiga</h2>
-					<p>
-						I'm an undergrad in Computer Engineering at Federal University of Paraíba, my core focus lies in algorithms, data structures, and complex problem-solving.
-					</p>
-					<p>
-						As an active participant in competitive programming, a major milestone was co-founding my university's competitive programming community in 2023, which I continue to lead today. I have also competed in various national and international contests, resulting in top rankings and medal placements.
-					</p>
-					<p>
-						More recently, my interests have expanded into Artificial Intelligence. By working with organizations like B3 and Huawei, I am applying my skills to real-world industry challenges.
-					</p>
-					<p>
-						You can visit my <a href="https://github.com/GabrielCFormiga" target="_blank" rel="noopener">GitHub</a>,
-						or connect with me on <a href="https://www.linkedin.com/in/gabrielcformiga/" target="_blank"
-							rel="noopener">LinkedIn</a>.
-						You can also access my <a href="/docs/Gabriel_resume_october2025.pdf" target="_blank" rel="noopener">resume
-							(PDF)</a>.
-					</p>
-				</div>
-			</div>
-			<div class="about-continue">
 
-			</div>
-		</div>
-	</section>
+				<div class="hero__copy">
+					<p class="hero__intro">I study Computer Engineering at UFPB, lead the competitive programming community
+						I&nbsp;co-founded there, and build AI models at B3.</p>
 
-	<!-- Fading divider -->
-	<div style="width: 100%; padding: 3em 0; display: flex; justify-content: center; align-items: center;">
-		<div
-			style="width: 60%; max-width: 600px; height: 1px; background: linear-gradient(to right, transparent, rgba(0,0,0,0.15) 20%, rgba(0,0,0,0.15) 80%, transparent);">
-		</div>
-	</div>
-
-	<!-- News -->
-	<section id="news" style="padding-top: 0.1em;">
-		<div class="container">
-			<header class="major special">
-				<h2>News</h2>
-			</header>
-			<div class="news-list">
-				<div class="news-item">
-					<div class="news-date">
-						<div>Feb</div>
-						<div>2023</div>
+					<div class="hero__actions">
+						<a class="action" href="mailto:gabriel.campfor@gmail.com">Get in touch</a>
+						<ul class="links">
+							<li><a href="/docs/Gabriel_resume_october2025.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li>
+							<li><a href="https://github.com/GabrielCFormiga" target="_blank" rel="noopener">GitHub</a></li>
+							<li><a href="https://www.linkedin.com/in/gabrielcformiga/" target="_blank" rel="noopener">LinkedIn</a></li>
+						</ul>
 					</div>
-					<div class="news-text">Started studying Computer Engineering at Federal University of Paraíba (UFPB).</div>
+
+					<!-- Face-out highlights -->
+					<ul class="minis">
+						<li>
+							<a class="badge mini" href="/cp.html#y2026">
+								<div class="badge__body">
+									<p class="mini__title caps">ICPC Brazil First Phase</p>
+									<p class="mini__meta label">2026</p>
+								</div>
+								<p class="band band--contest">76th of 2009</p>
+							</a>
+						</li>
+						<li>
+							<a class="badge mini" href="#awards">
+								<div class="badge__body">
+									<p class="mini__title caps">IEEEXtreme 18.0</p>
+									<p class="mini__meta label">2024</p>
+								</div>
+								<p class="band band--award">8th in Brazil</p>
+							</a>
+						</li>
+						<li>
+							<a class="badge mini" href="#projects">
+								<div class="badge__body">
+									<p class="mini__title caps">B3 Demand Forecast</p>
+									<p class="mini__meta label">AI Intern</p>
+								</div>
+								<p class="band band--project">50% fewer unallocated</p>
+							</a>
+						</li>
+						<li>
+							<a class="badge mini" href="#awards">
+								<div class="badge__body">
+									<p class="mini__title caps">Huawei Developer Competition</p>
+									<p class="mini__meta label">2025 LATAM</p>
+								</div>
+								<p class="band band--award">3rd Place</p>
+							</a>
+						</li>
+					</ul>
 				</div>
-				<div class="news-item">
-					<div class="news-date">
-						<div>Dec</div>
-						<div>2022</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section class="section section--split" id="about">
+			<div class="wrap">
+				<h2 class="section__head caps">About</h2>
+				<div class="section__body prose">
+					<p>I'm an undergrad in Computer Engineering at Federal University of Paraíba, and my core focus lies in
+						algorithms, data structures, and complex problem-solving.</p>
+					<p>As an active participant in competitive programming, a major milestone was co-founding my university's
+						competitive programming community in 2023, which I continue to lead today. I have also competed in
+						various national and international contests, resulting in top rankings and medal placements.</p>
+					<p>More recently, my interests have expanded into Artificial Intelligence. By working with organizations
+						like B3 and Huawei, I am applying my skills to real-world industry challenges.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section class="section" id="projects">
+			<div class="wrap">
+				<h2 class="section__head caps">Projects</h2>
+
+				<article class="badge project">
+					<figure class="project__photo">
+						<img src="images/web/B3_2026.jpg" width="1400" height="646" loading="lazy" decoding="async"
+							alt="B3's AI team with UFPB students and professors in a classroom" />
+						<figcaption>B3's AI team visiting UFPB, June 2026</figcaption>
+					</figure>
+					<div class="badge__body">
+						<h3 class="project__org caps">B3</h3>
+						<p class="project__title">Commodity demand forecasting</p>
+						<p class="project__meta">Artificial Intelligence Intern, remote from São Paulo, Aug 2025 to present</p>
+						<div class="project__text prose">
+							<p>Built and trained a prediction model on purchase history since 2017 to anticipate which
+								commodities each institutional client will request.</p>
+							<p>Used it to replace the manual monthly allocation with a Python and Pandas pipeline, cutting
+								requests for unallocated commodities by 50% and saving both money and team time.</p>
+						</div>
+						<p class="project__stack">Random Forest, Scikit-learn, Python, Pandas</p>
 					</div>
-					<div class="news-text">Accepted into the Military Institute of Engineering (IME).</div>
-				</div>
+					<p class="band band--project">50% fewer unallocated requests</p>
+				</article>
+
+				<article class="badge project">
+					<figure class="project__photo">
+						<a class="project__video" href="https://www.youtube.com/watch?v=nYW1Jd1ZN-U" target="_blank" rel="noopener"
+							aria-label="Watch “Como criei a turma de programação competitiva da UFPB” on YouTube">
+							<img src="images/web/VIDEO_TURMA_CP.jpg" width="1280" height="720" loading="lazy" decoding="async"
+								alt="Video thumbnail reading “do zero a 240+ alunos na UFPB” with Gabriel waving" />
+							<svg class="project__play" viewBox="0 0 64 64" aria-hidden="true">
+								<circle cx="32" cy="32" r="32" />
+								<path d="M26 20 46 32 26 44Z" />
+							</svg>
+						</a>
+						<figcaption>“Como criei a turma de programação competitiva da UFPB”, on YouTube</figcaption>
+					</figure>
+					<div class="badge__body">
+						<h3 class="project__org caps">UFPB</h3>
+						<p class="project__title">Competitive programming class</p>
+						<p class="project__meta">Co-founded in 2023, still leading it</p>
+						<div class="project__text prose">
+							<p>In this video I tell how I built the competitive programming class at UFPB from scratch, with no
+								tradition of the sport at the university. The video is in Portuguese.</p>
+						</div>
+						<ul class="links">
+							<li><a href="https://www.youtube.com/watch?v=nYW1Jd1ZN-U" target="_blank" rel="noopener">Watch on YouTube</a></li>
+						</ul>
+					</div>
+					<p class="band band--project">From zero to 240+ students</p>
+				</article>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!-- Awards -->
-	<section id="awards" style="padding-top: 0.1em;">
-		<div class="container" style="max-width: 1000px; line-height: 160%;">
+		<!-- Awards -->
+		<section class="section" id="awards">
+			<div class="wrap">
+				<h2 class="section__head caps">Awards</h2>
 
-			<header class="major special">
-				<h2>Awards</h2>
-			</header>
-			<div class="awards-list" style="font-size:15px;">
-				<div class="news-item">
-					<div class="news-date">2025</div>
-					<ul class="news-text" style="margin:0; padding-left:1.2em;">
-						<li>10th Place Nationally at IEEEXtreme 19.0</li>
-						<li>3rd Place at Huawei Developer Competition 2025 LATAM</li>
-						<li>Silver Medalist at Regional Olympiads in Informatics (OPI)</li>
-					</ul>
-				</div>
-				<div class="news-item">
-					<div class="news-date">2024</div>
-					<ul class="news-text" style="margin:0; padding-left:1.2em;">
-						<li>8th Place Nationally at IEEEXtreme 18.0</li>
-						<li>Honorable Mention at Regional Olympiads in Informatics (OPI)</li>
-					</ul>
-				</div>
-				<div class="news-item">
-					<div class="news-date">2023</div>
-					<ul class="news-text" style="margin:0; padding-left:1.2em;">
-						<li>Silver Medalist at Regional Olympiads in Informatics (OPI)</li>
-					</ul>
-				</div>
-				<div class="news-item">
-					<div class="news-date">2019</div>
-					<ul class="news-text" style="margin:0; padding-left:1.2em;">
-						<li>Outstanding Student José Lins do Rêgo</li>
-						<li>Gold Medalist at Brazilian Astronomy and Astronautics Olympiad (OBA)</li>
-						<li>Nominated for the Brazilian Mathematics Olympiad (OBM)</li>
-						<li>Bronze Medalist at João Pessoa Mathematics Olympiad (OPM)</li>
-						<li>Silver Medalist at Brazilian National Science Olympiad (ONC)</li>
-						<li>Bronze Medalist at Math Kangaroo Brazil</li>
-					</ul>
-				</div>
+				<ul class="featured">
+					<li class="badge">
+						<div class="badge__body">
+							<h3 class="featured__title caps">IEEEXtreme 18.0</h3>
+							<p class="featured__year label">2024</p>
+						</div>
+						<p class="band band--award">8th Place Nationally</p>
+					</li>
+					<li class="badge">
+						<div class="badge__body">
+							<h3 class="featured__title caps">IEEEXtreme 19.0</h3>
+							<p class="featured__year label">2025</p>
+						</div>
+						<p class="band band--award">10th Place Nationally</p>
+					</li>
+					<li class="badge">
+						<div class="badge__body">
+							<h3 class="featured__title caps">Huawei Developer Competition 2025 LATAM</h3>
+							<p class="featured__year label">2025</p>
+						</div>
+						<p class="band band--award">3rd Place</p>
+					</li>
+				</ul>
+
+				<ul class="spines">
+					<li class="spine spine--award"><span class="spine__tab">2026</span><p class="spine__text"><strong>Silver Medalist</strong><span>Regional Olympiads in Informatics (OPI)</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2025</span><p class="spine__text"><strong>Silver Medalist</strong><span>Regional Olympiads in Informatics (OPI)</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2024</span><p class="spine__text"><strong>Honorable Mention</strong><span>Regional Olympiads in Informatics (OPI)</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2023</span><p class="spine__text"><strong>Silver Medalist</strong><span>Regional Olympiads in Informatics (OPI)</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2019</span><p class="spine__text"><strong>Outstanding Student</strong><span>José Lins do Rêgo</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2019</span><p class="spine__text"><strong>Gold Medalist</strong><span>Brazilian Astronomy and Astronautics Olympiad (OBA)</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2019</span><p class="spine__text"><strong>Nominated</strong><span>Brazilian Mathematics Olympiad (OBM)</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2019</span><p class="spine__text"><strong>Bronze Medalist</strong><span>João Pessoa Mathematics Olympiad (OPM)</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2019</span><p class="spine__text"><strong>Silver Medalist</strong><span>Brazilian National Science Olympiad (ONC)</span></p></li>
+					<li class="spine spine--award"><span class="spine__tab">2019</span><p class="spine__text"><strong>Bronze Medalist</strong><span>Math Kangaroo Brazil</span></p></li>
+				</ul>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!-- Extra
-	<section id="Extra-curricular and Volunteering" style="padding-top: 2.0em;">
-		<div class="container">
-			<header class="major special">
-				<h2>Projects Highlights</h2>
-			</header>
-
-			<div class="content-card">
-				<h4><a href="#" target="_blank" rel="noopener">Lorem Ipsum Project Alpha</a></h4>
-				<div class="pill-row">
-					<span class="pill">Lorem</span>
-					<span class="pill">Ipsum</span>
-					<span class="pill">Dolor</span>
-				</div>
-				<p style="text-align: justify; margin-bottom: 0.6em;">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-					labore et dolore magna aliqua, combining various techniques and approaches.
-				</p>
-				<div class="link-row">
-					[<a href="#" target="_blank" rel="noopener">Write-up</a>]
-					<span class="dot">·</span>
-					[<a href="#" target="_blank" rel="noopener">GitHub</a>]
-				</div>
-				<div class="card-cta">
-					<a href="#" target="_blank" rel="noopener">Read the write-up →</a>
-				</div>
+		<!-- News -->
+		<section class="section" id="news">
+			<div class="wrap">
+				<h2 class="section__head caps">News</h2>
+				<ul class="spines">
+					<li class="spine spine--news"><span class="spine__tab">Feb<br />2023</span><p class="spine__text"><strong>Started studying Computer Engineering</strong><span>Federal University of Paraíba (UFPB)</span></p></li>
+					<li class="spine spine--news"><span class="spine__tab">Dec<br />2022</span><p class="spine__text"><strong>Accepted into the Military Institute of Engineering</strong><span>IME</span></p></li>
+				</ul>
 			</div>
+		</section>
 
-			<div class="content-card" style="margin-top: 2em;">
-				<h4><a href="#" target="_blank" rel="noopener">Lorem Ipsum Project Beta</a></h4>
-				<div class="pill-row">
-					<span class="pill">Sit Amet</span>
-					<span class="pill">Consectetur</span>
-					<span class="pill">Adipiscing</span>
-				</div>
-				<p style="text-align: justify; margin-bottom: 0.6em;">
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident.
-				</p>
-				<div class="link-row">
-					[<a href="#" target="_blank" rel="noopener">Demo</a>]
-				</div>
-				<div class="card-cta">
-					<a href="#" target="_blank" rel="noopener">Read the write-up →</a>
-				</div>
-			</div>
+	</main>
 
-			<p style="text-align: right; margin-top: 1.5em;"><a href="/misc.html"
-					style="color: #888; text-decoration: none; font-weight: 500; transition: color 0.3s ease;">Learn
-					more →</a></p>
-		</div>
-	</section> -->
-
-	<!-- Footer -->
-	<footer id="footer">
-		<div class="container">
-			<hr class="title-divider">
-			<ul class="icons">
-				<li><a href="mailto:gabriel.campfor@gmail.com" class="icon fa-envelope"></a></li>
-				<li><a href="https://github.com/GabrielCFormiga" class="icon fa-github"></a></li>
-				<li><a href="https://www.linkedin.com/in/gabrielcformiga/" class="icon fa-linkedin"></a></li>
+	<!-- Close: contact -->
+	<footer class="close" id="contact">
+		<div class="wrap">
+			<h2 class="close__head caps">Get in touch</h2>
+			<a class="close__mail" href="mailto:gabriel.campfor@gmail.com">gabriel.campfor@gmail.com</a>
+			<ul class="links">
+				<li><a href="https://github.com/GabrielCFormiga" target="_blank" rel="noopener">GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/gabrielcformiga/" target="_blank" rel="noopener">LinkedIn</a></li>
+				<li><a href="/docs/Gabriel_resume_october2025.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li>
+				<li><a href="/cp.html">Competitive Programming</a></li>
 			</ul>
 		</div>
 	</footer>
